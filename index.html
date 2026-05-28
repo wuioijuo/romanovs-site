@@ -1,0 +1,447 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Краткий исторический сайт о династии Романовых: правители, реформы, хронология, факты и источники." />
+  <title>Династия Романовых | История</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="На главную">
+      <span class="logo__icon" aria-hidden="true">♛</span>
+      <span>Романовы</span>
+    </a>
+
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#home">Главная</a>
+      <a href="#rulers">Правители</a>
+      <a href="#reforms">Реформы</a>
+      <a href="#timeline">Хронология</a>
+      <a href="#facts">Факты</a>
+      <a href="#sources">Источники</a>
+      <a href="#quiz">Тест</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero__content">
+        <p class="eyebrow">1613 - 1917 • история династии</p>
+        <h1>Династия Романовых</h1>
+        <div class="hero__emblem">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/RomanovsCoatRF.png"
+            alt="Герб бояр Романовых"
+          />
+          <span>Герб Романовых</span>
+        </div>
+        <p class="hero__lead">
+          Романовы правили Россией более трёх веков: от избрания Михаила Фёдоровича
+          после Смутного времени до отречения Николая II во время Февральской революции.
+          За это время Московское царство превратилось в Российскую империю, пережило
+          реформы, войны, культурный подъём и политический кризис начала XX века.
+        </p>
+        <div class="hero__stats" aria-label="Краткие факты">
+          <div><strong>304</strong><span>года правления</span></div>
+          <div><strong>1613</strong><span>избрание Михаила Романова</span></div>
+          <div><strong>1721</strong><span>Россия стала империей</span></div>
+          <div><strong>1917</strong><span>падение монархии</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>Почему Романовы важны для истории России?</h2>
+      <div class="intro-grid">
+        <article class="info-card">
+          <h3>Выход из Смуты</h3>
+          <p>
+            В 1613 году Земский собор избрал на царство Михаила Фёдоровича.
+            Это помогло восстановить центральную власть после Смутного времени
+            и положило начало новой династии.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>Преобразование государства</h3>
+          <p>
+            При Петре I Россия получила выход к Балтике, создала регулярную армию
+            и флот, а в 1721 году была провозглашена империей.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>Реформы и противоречия</h3>
+          <p>
+            XIX век принёс великие реформы Александра II, включая отмену крепостного
+            права, но также усилил споры о самодержавии, правах общества и будущем страны.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="rulers" class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">цари и императоры</p>
+        <h2>Главные правители династии</h2>
+        <p>
+          Нажмите на карточку правителя, чтобы открыть подробную информацию:
+          годы жизни, семью, предшественника, преемника и историческое значение.
+        </p>
+      </div>
+
+      <div class="ruler-grid">
+        <article class="ruler-card" data-ruler="mikhail" role="button" tabindex="0">
+          <span class="ruler-card__date">1613–1645</span>
+          <h3>Михаил Фёдорович</h3>
+          <p>
+            Первый царь из династии Романовых. Его правление связано с восстановлением
+            государства после Смуты, укреплением власти и постепенным восстановлением хозяйства.
+          </p>
+          <p class="note">Важно: по Столбовскому миру 1617 года Россия вернула Новгород, но потеряла выход к Балтийскому морю.</p>
+        </article>
+
+        <article class="ruler-card" data-ruler="alexei" role="button" tabindex="0">
+          <span class="ruler-card__date">1645–1676</span>
+          <h3>Алексей Михайлович</h3>
+          <p>
+            При нём было принято Соборное уложение 1649 года, усилилось крепостное право,
+            произошёл церковный раскол. После Переяславского соглашения 1654 года началась
+            русско-польская война за украинские земли.
+          </p>
+          <p class="note">
+            По Андрусовскому перемирию 1667 года за Россией закрепились Смоленск и Левобережная Украина;
+            Киев временно признавался за Россией, а позднее остался под её властью.
+          </p>
+        </article>
+
+        <article class="ruler-card" data-ruler="fedor" role="button" tabindex="0">
+          <span class="ruler-card__date">1676–1682</span>
+          <h3>Фёдор III Алексеевич</h3>
+          <p>
+            При нём отменили местничество — старую систему распределения должностей по знатности рода.
+            Это было важным шагом к более централизованному управлению.
+          </p>
+        </article>
+
+        <article class="ruler-card ruler-card--accent" data-ruler="peter1" role="button" tabindex="0">
+          <span class="ruler-card__date">1682–1725</span>
+          <h3>Пётр I Великий</h3>
+          <p>
+            Провёл масштабные реформы армии, флота, управления, образования и быта.
+            Победа в Северной войне открыла России выход к Балтийскому морю; в 1703 году
+            был основан Санкт-Петербург, а в 1721 году Россия стала империей.
+          </p>
+        </article>
+
+        <article class="ruler-card" data-ruler="catherine1" role="button" tabindex="0">
+          <span class="ruler-card__date">1725–1727</span>
+          <h3>Екатерина I</h3>
+          <p>
+            После смерти Петра I стала первой женщиной, правившей Российской империей как императрица.
+            В её правление был создан Верховный тайный совет, усиливший роль придворной элиты.
+          </p>
+        </article>
+
+        <article class="ruler-card" data-ruler="peter2" role="button" tabindex="0">
+          <span class="ruler-card__date">1727–1730</span>
+          <h3>Пётр II</h3>
+          <p>
+            Внук Петра I. Правил недолго, фактическое влияние при дворе имели знатные семьи.
+            Двор временно переместился в Москву.
+          </p>
+        </article>
+
+        <article class="ruler-card" data-ruler="anna" role="button" tabindex="0">
+          <span class="ruler-card__date">1730–1740</span>
+          <h3>Анна Иоанновна</h3>
+          <p>
+            Её правление часто связывают с усилением дворцовой бюрократии и влиянием фаворитов.
+            В 1731 году был отменён петровский указ о единонаследии.
+          </p>
+        </article>
+
+        <article class="ruler-card" data-ruler="elizabeth" role="button" tabindex="0">
+          <span class="ruler-card__date">1741–1762</span>
+          <h3>Елизавета Петровна</h3>
+          <p>
+            При ней Россия участвовала в Семилетней войне, развивались дворцовая культура и барокко,
+            а в 1755 году был основан Московский университет.
+          </p>
+        </article>
+
+        <article class="ruler-card ruler-card--accent" data-ruler="catherine2" role="button" tabindex="0">
+          <span class="ruler-card__date">1762–1796</span>
+          <h3>Екатерина II Великая</h3>
+          <p>
+            Расширила территорию империи: в состав России вошёл Крым, а также значительная часть
+            земель Речи Посполитой. Проводила политику «просвещённого абсолютизма»,
+            поддерживала развитие культуры и образования.
+          </p>
+        </article>
+
+        <article class="ruler-card" data-ruler="paul1" role="button" tabindex="0">
+          <span class="ruler-card__date">1796–1801</span>
+          <h3>Павел I</h3>
+          <p>
+            Стремился укрепить дисциплину в армии и государственном управлении.
+            В 1797 году издал манифест о трёхдневной барщине — одну из первых попыток ограничить
+            повинности крепостных крестьян. Был убит в результате дворцового заговора.
+          </p>
+        </article>
+
+        <article class="ruler-card" data-ruler="alexander1" role="button" tabindex="0">
+          <span class="ruler-card__date">1801–1825</span>
+          <h3>Александр I</h3>
+          <p>
+            Его правление связано с победой в Отечественной войне 1812 года,
+            заграничными походами русской армии и участием России в Венском конгрессе.
+          </p>
+        </article>
+
+        <article class="ruler-card" data-ruler="nicholas1" role="button" tabindex="0">
+          <span class="ruler-card__date">1825–1855</span>
+          <h3>Николай I</h3>
+          <p>
+            При нём была проведена кодификация законов, усилился контроль государства над обществом,
+            а также началось строительство важных железных дорог.
+          </p>
+        </article>
+
+        <article class="ruler-card ruler-card--accent" data-ruler="alexander2" role="button" tabindex="0">
+          <span class="ruler-card__date">1855–1881</span>
+          <h3>Александр II Освободитель</h3>
+          <p>
+            В 1861 году отменил крепостное право. Также провёл земскую, судебную, военную
+            и городскую реформы. Погиб в 1881 году в результате покушения народовольцев.
+          </p>
+        </article>
+
+        <article class="ruler-card" data-ruler="alexander3" role="button" tabindex="0">
+          <span class="ruler-card__date">1881–1894</span>
+          <h3>Александр III</h3>
+          <p>
+            Проводил консервативную политику и укреплял самодержавие. Его правление часто называют
+            мирным: Россия не вела крупных войн с участием армии империи.
+          </p>
+        </article>
+
+        <article class="ruler-card ruler-card--accent" data-ruler="nicholas2" role="button" tabindex="0">
+          <span class="ruler-card__date">1894–1917</span>
+          <h3>Николай II</h3>
+          <p>
+            Последний российский император. При нём произошли революция 1905 года,
+            создание Государственной думы, Столыпинская аграрная реформа и участие России
+            в Первой мировой войне. В марте 1917 года Николай II отрёкся от престола.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reforms" class="section section--muted">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Ключевые реформы и их значение</h2>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Период</th>
+                <th>Реформа / событие</th>
+                <th>Значение</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Пётр I</td>
+                <td>Военная и административная реформы</td>
+                <td>Созданы регулярная армия и флот, Сенат, коллегии; государство стало более централизованным.</td>
+              </tr>
+              <tr>
+                <td>1722</td>
+                <td>Табель о рангах</td>
+                <td>Служебная карьера стала зависеть не только от происхождения, но и от государственной службы.</td>
+              </tr>
+              <tr>
+                <td>Екатерина II</td>
+                <td>Губернская реформа 1775 года</td>
+                <td>Изменила местное управление и усилила контроль центра над огромной империей.</td>
+              </tr>
+              <tr>
+                <td>Александр II</td>
+                <td>Отмена крепостного права 1861 года</td>
+                <td>Крестьяне получили личную свободу; земельный вопрос решался через сложные выкупные отношения.</td>
+              </tr>
+              <tr>
+                <td>Александр II</td>
+                <td>Судебная реформа 1864 года</td>
+                <td>Появились гласный суд, адвокатура, суд присяжных и состязательность сторон.</td>
+              </tr>
+              <tr>
+                <td>Николай II</td>
+                <td>Столыпинская аграрная реформа</td>
+                <td>Крестьянам разрешали выходить из общины и закреплять землю в личную собственность.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="quote-box quote-box--light">
+          <strong>Главная мысль:</strong>
+          Романовы не только расширяли территорию государства, но и постоянно меняли систему управления.
+          Однако многие реформы шли сверху и часто не решали социальные противоречия полностью.
+        </aside>
+      </div>
+    </section>
+
+    <section id="timeline" class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">304 года в датах</p>
+        <h2>Краткая хронология</h2>
+      </div>
+
+      <ol class="timeline">
+        <li><time>1613</time><span>Земский собор избирает Михаила Фёдоровича Романова царём.</span></li>
+        <li><time>1617</time><span>Столбовский мир со Швецией: Россия возвращает Нoвгород, но теряет выход к Балтике.</span></li>
+        <li><time>1649</time><span>Соборное уложение Алексея Михайловича — важнейший свод законов XVII века.</span></li>
+        <li><time>1667</time><span>Андрусовское перемирие: за Россией закрепляются Смоленск и Левобережная Украина; Киев временно признаётся за Россией, а позднее остаётся под её властью.</span></li>
+        <li><time>1703</time><span>Основание Санкт-Петербурга.</span></li>
+        <li><time>1721</time><span>После победы в Северной войне Россия провозглашена империей.</span></li>
+        <li><time>1762-1796</time><span>Правление Екатерины II: территориальное расширение, культура и просвещённый абсолютизм.</span></li>
+        <li><time>1812</time><span>Отечественная война против Наполеона.</span></li>
+        <li><time>1861</time><span>Отмена крепостного права Александром II.</span></li>
+        <li><time>1905</time><span>Первая русская революция и Манифест 17 октября.</span></li>
+        <li><time>1914</time><span>Россия вступает в Первую мировую войну.</span></li>
+        <li><time>1917</time><span>Февральская революция и отречение Николая II.</span></li>
+        <li><time>1918</time><span>Расстрел Николая II и его семьи в Екатеринбурге.</span></li>
+      </ol>
+    </section>
+
+    <section id="facts" class="section section--dark">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Исторические факты</h2>
+        </div>
+
+        <div class="fact-grid">
+          <article>
+            <h3 class="fact-title">Происхождение</h3>
+            <p>
+              Романовы происходили из старой московской боярской среды. Их род связывают
+              с Андреем Кобылой, боярином XIV века.
+            </p>
+          </article>
+
+          <article>
+            <h3 class="fact-title">Связь с Иваном IV</h3>
+            <p>
+              Анастасия Романовна, первая жена Ивана Грозного, происходила из семьи Захарьиных-Юрьевых,
+              предков Романовых. Это усиливало престиж рода.
+            </p>
+          </article>
+
+          <article>
+            <h3 class="fact-title">Дворцовые перевороты</h3>
+            <p>
+              XVIII век после смерти Петра I часто называют эпохой дворцовых переворотов:
+              власть несколько раз переходила при поддержке гвардии и придворных группировок.
+            </p>
+          </article>
+
+          <article>
+            <h3 class="fact-title">Трагический финал</h3>
+            <p>
+              После отречения Николая II монархия закончилась, а в 1918 году бывший император
+              и его семья были убиты в Екатеринбурге.
+            </p>
+          </article>
+        </div>
+        <aside class="quote-box quote-box--light">
+          <strong>Интересный факт:</strong>
+          В 2000 году Русская православная церковь прославила Николая II, императрицу Александру,
+          царевича Алексея и великих княжон Ольгу, Татьяну, Марию и Анастасию как страстотерпцев.
+        </aside>
+      </div>
+    </section>
+
+    <section id="sources" class="container section">
+      <div class="section-heading">
+        <h2>Источники</h2>
+      </div>
+
+      <ul class="sources-list">
+        <li><a href="https://ru.wikipedia.org/wiki/Романовы" target="_blank" rel="noreferrer">Википедия: Династия Романовых</a></li>
+        <li><a href="https://tv-gubernia.ru/articles/dinastiya_romanovyh_genealogicheskoe_drevo_s_godami_pravleniya/" target="_blank" rel="noreferrer">Династия Романовых: генеалогическое дерево с годами правления</a></li>
+        <li><a href="https://www.culture.ru/s/romanovy/" target="_blank" rel="noreferrer">РОМАНОВЫ 300 лет власти</a></li>
+        <li><a href="https://www.monetnik.ru/obuchenie/istoriya-rossii/dinastiya-romanovyh/" target="_blank" rel="noreferrer">Династия Романовых: история и наследие</a></li>
+        <li><a href="https://ru.wikipedia.org/wiki/Герб_Романовых" target="_blank" rel="noreferrer">Герб Романовых</a></li>
+      </ul>
+    </section>
+
+    <section id="quiz" class="section section--muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">самопроверка</p>
+          <h2>Мини-тест по Романовым</h2>
+        </div>
+
+        <div class="quiz" aria-live="polite">
+          <div id="quizBox">
+            <p>Нажмите кнопку, чтобы начать тест.</p>
+            <button class="button" id="startQuiz" type="button">Начать тест</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Династия Романовых • 1613 - 1917</p>
+    <p>Краткий исторический обзор правления, реформ и ключевых событий.</p>
+  </footer>
+
+  <div class="ruler-modal" id="rulerModal" aria-hidden="true">
+  <div class="ruler-modal__backdrop" data-close-modal></div>
+
+  <article class="ruler-modal__card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="ruler-modal__close" type="button" data-close-modal aria-label="Закрыть">×</button>
+
+    <img id="modalImage" class="ruler-modal__image" src="" alt="" />
+
+    <div class="ruler-modal__content">
+      <p id="modalYears" class="eyebrow"></p>
+      <h2 id="modalTitle"></h2>
+
+      <dl class="ruler-details">
+        <div>
+          <dt>Годы жизни</dt>
+          <dd id="modalLife"></dd>
+        </div>
+        <div>
+          <dt>Супруг / супруга</dt>
+          <dd id="modalSpouse"></dd>
+        </div>
+        <div>
+          <dt>Дети</dt>
+          <dd id="modalChildren"></dd>
+        </div>
+        <div>
+          <dt>Предшественник</dt>
+          <dd id="modalBefore"></dd>
+        </div>
+        <div>
+          <dt>Преемник</dt>
+          <dd id="modalAfter"></dd>
+        </div>
+      </dl>
+
+      <p id="modalText" class="ruler-modal__text"></p>
+    </div>
+  </article>
+</div>
+
+  <script src="Script3.js" charset="UTF-8"></script>
+</body>
+</html>
